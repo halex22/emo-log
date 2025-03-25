@@ -1,0 +1,38 @@
+:root {
+  --cancel-btn-color: rgb(71, 71, 71);
+  --ok-btn-color: rgb(2, 111, 33);
+  --pale-gray: rgb(192, 192, 192);
+  --pale-green: rgb(2, 204, 60);
+}
+
+
+.dialog-style {
+  border: 2px solid var(--pale-gray);
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  box-shadow: 0px 10px 15px 10px rgba(0,0,0,0.1);
+}
+
+.btn {
+  color: white;
+  padding: 4px 8px;
+  border-radius: 6px;
+}
+
+.cancel-btn {
+  background-color: var(--cancel-btn-color);
+  border: 1px solid var(--pale-gray);
+}
+
+.cancel-btn:hover {
+  background-color: var(--pale-gray);
+}
+
+.ok-btn {
+  background-color: var(--ok-btn-color);
+  border: 1px solid var(--pale-green);
+}
+
+.ok-btn:hover {
+  background-color: rgb(2, 204, 60);
+}
