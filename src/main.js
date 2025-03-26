@@ -5,6 +5,6 @@ import EmojiContainer from './components/emoji-component'
 import EmojiDialog from './components/dialog-component'
 import emojis from './emojis.json'
 
-console.log(emojis)
+// console.log(emojis)
 
-console.log(Object.entries(emojis).forEach((key, value) => console.log(key, value)))
+// console.log(Object.entries(emojis).forEach((key, value) => console.log(key, value)))

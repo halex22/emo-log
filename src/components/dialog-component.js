@@ -9,6 +9,9 @@ export default class EmojiDialog extends HTMLElement {
 
   connectedCallback() {
     this.render()
+    document.addEventListener('emoji-value', (event) => {
+      console.log(event)
+    })
   }
 
   render() {
